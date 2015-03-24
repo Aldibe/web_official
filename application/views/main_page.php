@@ -113,7 +113,7 @@
 		<div class="row">
 			<div class="large-4 columns">
 				<div class="divider-title">
-					<h2>the people in our</h2>
+					<h2>The people in our</h2>
 					<h1>FAMILY</h1>
 				</div>
 			</div>
@@ -130,7 +130,7 @@
 	<section id="structure">
 		<div class="row">
 			<div class="large-8 large-centered columns">
-				<h2>ORGANIZATIONAL STRUCTURE</h2>
+				<center><h2>ORGANIZATIONAL STRUCTURE</h2></center>
 				<div class="structure">
 					<a href="#" id="dpi" class="button">BOARD OF DIRECTORS</a>
 					<a href="#" id="marketing" class="button">MARKETING <br>DIVISION</a>
@@ -142,11 +142,22 @@
 		</div>
 	</section>
 
+	<section id="history">
+		<div class="row">
+			<div class="large-8 large-centered columns">
+				<center><h2>HISTORY</h2></center>
+				<div class="history">
+
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<section class="divider" id="organization">
 		<div class="row">
 			<div class="large-4 columns">
 				<div class="divider-title">
-					<h2>the activities and event of our</h2>
+					<h2>The activities and event of our</h2>
 					<h1>ORGANIZATION</h1>
 				</div>
 			</div>
@@ -190,15 +201,12 @@
 		<div class="row">
 			<div class="large-4 columns">
 				<div class="divider-title">
-					<h2>the products of our</h2>
+					<h2>The products of our</h2>
 					<h1>COMPANY</h1>
 				</div>
 			</div>
 			<div class="large-8 columns">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				<p>Excepturi id praesentium dignissimos, culpa harum beatae rerum!</p>
-				<p>Fugiat voluptates, eaque. Laboriosam explicabo nobis doloribus sit.</p>
-				<p>Dicta ullam doloribus reiciendis quaerat ipsam voluptatibus voluptate.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi id praesentium dignissimos, culpa harum beatae rerum! Fugiat voluptates, eaque. Laboriosam explicabo nobis doloribus sit. Dicta ullam doloribus reiciendis quaerat ipsam voluptatibus voluptate.</p>
 			</div>
 		</div>
 	</section>
@@ -237,7 +245,7 @@
 		<div class="row">
 			<div class="large-7 columns">
 				<div class="divider-title">
-					<h2>we'd be glad if you</h2>
+					<h2>We'd be glad if you</h2>
 					<h1>CONTACT US</h1>
 				</div>
 			</div>

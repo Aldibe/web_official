@@ -70,7 +70,7 @@ body *{
 	font-size: 1.5em;
 	position: relative;
 	margin-top: 200px;
-	margin-bottom: 120px;
+	margin-bottom: 50px;
 }
 
 .strong{
@@ -317,43 +317,20 @@ hop{
 	margin-bottom: 5em;
 }
 
-
-/*=======ACTIVITIES=======*/
-
-#activities>.row{
-}
-#activities .row-label{
-	background-color: #e5e6e6;
-	margin-top: 5em;
-	margin-bottom: 2em;/*
-	padding-top: 1em;
-	padding-bottom: 1em;*/
-}
-#activities .large-12>.row{
-	padding: 1em 3em;
-}
-#activities h2{
-	color: #00b0da;
-	font-size: 1.4em;
-}
-#activities p{
-
-}
-
-
 /*=======COMPANY=======*/
-#company .large-8{
-	padding-top: 2em;
-	padding-bottom: 2em;
-}
+
 #company p{
-	margin-bottom: 0;
+	margin-top: 3em;
+	margin-bottom: 5em;
 }
 #company h2{
 	font-size: 1em;
 	color: #f3eeee;
+	margin-bottom: 0;
+	transform: translateY(3.5em);
 }
 #company h1{
+	margin-top: 0;
 	transform: translateY(0.4em);
 	font-size: 5em;
 	margin-bottom: 0;
