@@ -5,7 +5,7 @@ class c_book extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('home.html');
+		$this->load->view('main_page');
 	}
 }
 

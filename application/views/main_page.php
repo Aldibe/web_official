@@ -2,23 +2,24 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/foundation.css" />
-	<link rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" href="css/font-awesome.css">
-    <script src="js/vendor/modernizr.js"></script>
+	<title>Bina Nusantara Computer Club :: The Official Site</title>
+	<link rel="shortcut icon" href="<?php echo $this->config->base_url(); ?>/resource/img/favicon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" href="<?php echo $this->config->base_url(); ?>/resource/css/foundation.css" />
+	<link rel="stylesheet" href="<?php echo $this->config->base_url(); ?>/resource/css/style.css" />
+	<link rel="stylesheet" href="<?php echo $this->config->base_url(); ?>/resource/css/font-awesome.css">
+    <script src="<?php echo $this->config->base_url(); ?>/resource/js/vendor/modernizr.js"></script>
 </head>
 <body>
 	<section class="topbar">
 		<div class="logo">
-			<img src="img/bncc.png" alt="">
+			<img src="<?php echo $this->config->base_url(); ?>/resource/img/bncc.png" alt="">
 		</div>
 
-		
+
 		<div class="navbar">
 			<a href="#">HOME</a>
-			<a href="#">NEWS</a>
 			<a href="#">ABOUT</a>
+			<a href="#">STRUCTURE</a>
 			<a href="#">PRODUCTS</a>
 			<a href="#">EVENTS</a>
 			<a href="#">CONTACTS</a>
@@ -64,7 +65,7 @@
 			</div>
 		</div>
 	</section>
-	
+
 	<section id="vision">
 		<div class="row">
 			<div class="large-6 large-centered columns">
@@ -123,7 +124,7 @@
 		</div>
 	</section>
 
-	
+
 	<section id="structure">
 		<div class="row">
 			<div class="large-8 large-centered columns">
@@ -157,23 +158,23 @@
 		<div class="row full">
 			<div class="large-12 large-collapse columns">
 				<div class="row row-label">
-					<div class="large-4 columns"><img src="img/bncc.png" alt=""></div>
-					<div class="large-4 columns"><img src="img/bncc.png" alt=""></div>
-					<div class="large-4 columns"><img src="img/bncc.png" alt=""></div>
+					<div class="large-4 columns"><img src="<?php echo $this->config->base_url(); ?>/resource/img/bncc.png" alt=""></div>
+					<div class="large-4 columns"><img src="<?php echo $this->config->base_url(); ?>/resource/img/bncc.png" alt=""></div>
+					<div class="large-4 columns"><img src="<?php echo $this->config->base_url(); ?>/resource/img/bncc.png" alt=""></div>
 				</div>
 				<div class="row row-content">
 					<div class="large-4 columns">
-						<img src="img/flower.jpg" alt="">
+						<img src="<?php echo $this->config->base_url(); ?>/resource/img/flower.jpg" alt="">
 						<h2>Alvion-Alpha Innovation</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 					</div>
 					<div class="large-4 columns">
-						<img src="img/flower.jpg" alt="">
+						<img src="<?php echo $this->config->base_url(); ?>/resource/img/flower.jpg" alt="">
 						<h2>BNCC Overclocking Activity</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 					</div>
 					<div class="large-4 columns">
-						<img src="img/flower.jpg" alt="">
+						<img src="<?php echo $this->config->base_url(); ?>/resource/img/flower.jpg" alt="">
 						<h2>BNCC Technomeetup</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 					</div>
@@ -205,23 +206,23 @@
 		<div class="row full">
 			<div class="large-12 large-collapse columns">
 				<div class="row row-label">
-					<div class="large-4 columns"><img src="img/bncc.png" alt=""></div>
-					<div class="large-4 columns"><img src="img/fave.png" alt=""></div>
-					<div class="large-4 columns"><img src="img/file.png" alt=""></div>
+					<div class="large-4 columns"><img src="<?php echo $this->config->base_url(); ?>/resource/img/bncc.png" alt=""></div>
+					<div class="large-4 columns"><img src="<?php echo $this->config->base_url(); ?>/resource/img/fave.png" alt=""></div>
+					<div class="large-4 columns"><img src="<?php echo $this->config->base_url(); ?>/resource/img/file.png" alt=""></div>
 				</div>
 				<div class="row row-content">
 					<div class="large-4 columns">
-						<img src="img/flower.jpg" alt="">
+						<img src="<?php echo $this->config->base_url(); ?>/resource/img/flower.jpg" alt="">
 						<h2>Alvion-Alpha Innovation</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 					</div>
 					<div class="large-4 columns">
-						<img src="img/flower.jpg" alt="">
+						<img src="<?php echo $this->config->base_url(); ?>/resource/img/flower.jpg" alt="">
 						<h2>BNCC Overclocking Activity</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 					</div>
 					<div class="large-4 columns">
-						<img src="img/flower.jpg" alt="">
+						<img src="<?php echo $this->config->base_url(); ?>/resource/img/flower.jpg" alt="">
 						<h2>BNCC Technomeetup</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 					</div>
