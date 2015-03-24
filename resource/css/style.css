@@ -5,14 +5,20 @@ body{
 body *{
 }
 
-
-
-
+/*=======TOP FILLER=======*/
+.filler {
+	width: 100%;
+	height: 120px;
+}
 
 /*=======TOPBAR=======*/
 .topbar{
 	width: 100%;
 	height: 120px;
+	position: fixed;
+	z-index: 1;
+	background-color: #f3eeee;
+
 }
 .topbar .logo{
 	padding-left: 20px;
@@ -44,7 +50,7 @@ body *{
 	color:black !important;
 }
 .top-bar-section a:hover{
-	
+
 }
 
 /*=======CONTENT=======*/
@@ -62,6 +68,9 @@ body *{
 
 .vision-top p{
 	font-size: 1.5em;
+	position: relative;
+	margin-top: 200px;
+	margin-bottom: 120px;
 }
 
 .strong{
@@ -81,6 +90,10 @@ body *{
 	position: relative !important;
 	background-color: #00b0da;
 	color: #f3eeee;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 145px;
+	padding-bottom: 25px;
 	/*overflow: hidden;*/
 }
 /*.divider:after{
@@ -118,7 +131,7 @@ hop{
   display:block;
   position:absolute;
   top:0px;
-  content:''; 
+  content:'';
   left:15%;
 }
 

@@ -7,25 +7,27 @@
 	<link rel="stylesheet" href="<?php echo $this->config->base_url(); ?>/resource/css/foundation.css" />
 	<link rel="stylesheet" href="<?php echo $this->config->base_url(); ?>/resource/css/style.css" />
 	<link rel="stylesheet" href="<?php echo $this->config->base_url(); ?>/resource/css/font-awesome.css">
+		<script src="<?php echo $this->config->base_url(); ?>/resource/js/jquery.js"></script>
     <script src="<?php echo $this->config->base_url(); ?>/resource/js/vendor/modernizr.js"></script>
+		<script src="<?php echo $this->config->base_url(); ?>/resource/js/smoothscroll.js"></script>
 </head>
 <body>
+
 	<section class="topbar">
 		<div class="logo">
 			<img src="<?php echo $this->config->base_url(); ?>/resource/img/bncc.png" alt="">
 		</div>
-
-
 		<div class="navbar">
-			<a href="#">HOME</a>
-			<a href="#">ABOUT</a>
-			<a href="#">STRUCTURE</a>
-			<a href="#">PRODUCTS</a>
-			<a href="#">EVENTS</a>
-			<a href="#">CONTACTS</a>
+			<a href="#home" class="smoothScroll">HOME</a>
+			<!-- <a href="#section-news">NEWS</a> -->
+			<a href="#greetings" class="smoothScroll">ABOUT</a>
+			<a href="#family" class="smoothScroll">STRUCTURE</a>
+			<a href="#organization" class="smoothScroll">EVENTS</a>
+			<a href="#company" class="smoothScroll">PRODUCTS</a>
+			<a href="#contact" class="smoothScroll">CONTACTS</a>
 		</div>
 	</section>
-	<section class="vision-top">
+	<section class="vision-top" id="home">
 		<div class="row">
 			<!-- <div class="large-12 columns">
 				<h3 class="section-title">Vision</h3>
@@ -36,20 +38,20 @@
 			</div>
 
 			<div class="large-6 columns">
+			<!--	<i class="fa fa-cloud"></i>
 				<i class="fa fa-cloud"></i>
-				<i class="fa fa-cloud"></i>
-				<i class="fa fa-laptop"></i>
+				<i class="fa fa-laptop"></i> -->
 			</div>
 		</div>
 	</section>
-	<section class="news">
+	<!-- <section class="news" id="section-news">
 		<div class="row">
 			<div class="large-12 columns">
 				<h3 class="section-title">NEWS</h3>
 			</div>
 			<large-12 class="columns"></large-12>
 		</div>
-	</section>
+	</section> -->
 	<section class="divider" id="greetings">
 		<div class="row">
 			<div class="large-6 columns">
