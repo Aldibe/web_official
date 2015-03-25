@@ -22,8 +22,8 @@
 			<a href="#home" class="smoothScroll">HOME</a>
 			<a href="#section-news" class="smoothScroll">NEWS</a>
 			<a href="#greetings" class="smoothScroll">ABOUT</a>
-			<a href="#company" class="smoothScroll">PRODUCTS</a>
 			<a href="#organization" class="smoothScroll">EVENTS</a>
+			<a href="#company" class="smoothScroll">PRODUCTS</a>
 			<a href="#contact" class="smoothScroll">CONTACTS</a>
 		</div>
 	</section>
