@@ -34,7 +34,7 @@
 			</div> -->
 			<div class="large-6 columns">
 				<p>An <span class="strong">organization</span> of excellent youth in continous development of technology innovation, products, and services for the people</p>
-				<br><a href="#" class="button">EXPLORE</a>
+				<br><a href="#" class="button">> EXPLORE</a>
 			</div>
 
 			<div class="large-6 columns">
