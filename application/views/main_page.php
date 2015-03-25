@@ -8,8 +8,9 @@
 	<link rel="stylesheet" href="<?php echo $this->config->base_url(); ?>/resource/css/style.css" />
 	<link rel="stylesheet" href="<?php echo $this->config->base_url(); ?>/resource/css/font-awesome.css">
 		<script src="<?php echo $this->config->base_url(); ?>/resource/js/jquery.js"></script>
-    <script src="<?php echo $this->config->base_url(); ?>/resource/js/vendor/modernizr.js"></script>
+		<script src="<?php echo $this->config->base_url(); ?>/resource/js/vendor/modernizr.js"></script>
 		<script src="<?php echo $this->config->base_url(); ?>/resource/js/smoothscroll.js"></script>
+		<script src="<?php echo $this->config->base_url(); ?>/resource/js/jumpoffset.js"></script>
 </head>
 <body>
 
@@ -19,11 +20,10 @@
 		</div>
 		<div class="navbar">
 			<a href="#home" class="smoothScroll">HOME</a>
-			<!-- <a href="#section-news">NEWS</a> -->
+			<a href="#section-news" class="smoothScroll">NEWS</a>
 			<a href="#greetings" class="smoothScroll">ABOUT</a>
-			<a href="#family" class="smoothScroll">STRUCTURE</a>
-			<a href="#organization" class="smoothScroll">EVENTS</a>
 			<a href="#company" class="smoothScroll">PRODUCTS</a>
+			<a href="#organization" class="smoothScroll">EVENTS</a>
 			<a href="#contact" class="smoothScroll">CONTACTS</a>
 		</div>
 	</section>
@@ -44,14 +44,14 @@
 			</div>
 		</div>
 	</section>
-	<!-- <section class="news" id="section-news">
+	<section class="news" id="section-news">
 		<div class="row">
 			<div class="large-12 columns">
 				<h3 class="section-title">NEWS</h3>
 			</div>
 			<large-12 class="columns"></large-12>
 		</div>
-	</section> -->
+	</section>
 	<section class="divider" id="greetings">
 		<div class="row">
 			<div class="large-6 columns">
