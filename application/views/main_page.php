@@ -35,12 +35,14 @@
 			<div class="large-6 columns">
 				<p>An <span class="strong">organization</span> of excellent youth in continous development of technology innovation, products, and services for the people</p>
 				<br><a href="#" class="button">> EXPLORE</a>
+				
+			
 			</div>
-
-			<div class="large-6 columns">
-			<!--	<i class="fa fa-cloud"></i>
+			<div class="large-6 columns" style="margin-top:120px">
+				<!-- <i class="fa fa-cloud"></i>
 				<i class="fa fa-cloud"></i>
 				<i class="fa fa-laptop"></i> -->
+				<img src="<?php echo $this->config->base_url(); ?>/resource/img/laptop.png" alt="">
 			</div>
 		</div>
 	</section>
