@@ -10,7 +10,7 @@
 		<script src="<?php echo $this->config->base_url(); ?>/resource/js/jquery.js"></script>
 		<script src="<?php echo $this->config->base_url(); ?>/resource/js/vendor/modernizr.js"></script>
 		<script src="<?php echo $this->config->base_url(); ?>/resource/js/smoothscroll.js"></script>
-		<script src="<?php echo $this->config->base_url(); ?>/resource/js/jumpoffset.js"></script>
+		<script src="<?php echo $this->config->base_url(); ?>/resource/js/showhide.js"></script>
 </head>
 <body>
 
@@ -29,9 +29,6 @@
 	</section>
 	<section class="vision-top" id="home">
 		<div class="row">
-			<!-- <div class="large-12 columns">
-				<h3 class="section-title">Vision</h3>
-			</div> -->
 			<div class="large-6 columns">
 				<p>An <span class="strong">organization</span> of excellent youth in continous development of technology innovation, products, and services for the people</p>
 				<br><a href="#" class="button">> EXPLORE</a>
@@ -39,9 +36,6 @@
 			
 			</div>
 			<div class="large-6 columns" style="margin-top:120px">
-				<!-- <i class="fa fa-cloud"></i>
-				<i class="fa fa-cloud"></i>
-				<i class="fa fa-laptop"></i> -->
 				<img src="<?php echo $this->config->base_url(); ?>/resource/img/laptop.png" alt="">
 			</div>
 		</div>
@@ -122,8 +116,8 @@
 			<div class="large-8 columns">
 				<p><b>Lorem ipsum dolor</b> sit amet, consectetur adipisicing elit. Quisquam quos beatae culpa, rem architecto deserunt officiis, dicta iste, eligendi, accusamus ducimus doloremque minima nam quia eaque molestias odit possimus ad.</p>
 				<br>
-				<a href="#" class="button">STRUCTURE</a>
-				<a href="#" class="button">HISTORY</a>
+				<a class="button" id="btnStructure">STRUCTURE</a>
+				<a class="button" id="btnHistory">HISTORY</a>
 			</div>
 		</div>
 	</section>
