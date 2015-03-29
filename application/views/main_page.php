@@ -53,13 +53,14 @@
 			<div class="large-6 columns">
 				<div class="divider-title">
 					<h2>Adhy Wiranata Prasetyo - Chief Executive Officer of BNCC</h2>
-					<h1>GREETINGS</h1>
+					<h1><b>GREETINGS</b></h1>
 				</div>
 			</div>
 			<div class="large-6 columns">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quos beatae culpa, rem architecto deserunt officiis, dicta iste, eligendi, accusamus ducimus doloremque minima nam quia eaque molestias odit possimus ad.</p>
-				<p>Id nobis vel esse, adipisci consequuntur eos, officia alias nemo** magnam exercitationem repellat velit molestias, voluptates earum rem ducimus magni expedita, dolorem odio deleniti dolores error accusamus ipsa libero. Ea.</p>
-				<p>Quisquam, optio quidem nihil perspiciatis tempora, ea repellat veritatis! Mollitia minima accusantium, ullam nam excepturi cum voluptatibus minus voluptatum quas omnis quae illo soluta explicabo tenetur, perspiciatis sed placeat natus.</p>
+				<p><b>Bina Nusantara Computer Club</b> is a computer-based organization in Binus University and we are a family of excellent youth who works passionately and professionally.</p>
+				<p>Established on 1989, BNCC has now reached its 25th year. It has been a long milestone for us to create a strong foundation and belief to learn and forge ourselves with computer, technology business, and organizational skills.</p>
+				<p><b>BNCC</b> educate others in computer and organizational knowledge, having technology products such as software house and online magazine, doing technology research, and creating technology communities inside and outside the university.</p>
+				<p>Be successful by joining us. Be a part of our family and relation and become one of the future generation, a generation which will always give innovations on the technology era.</p>
 			</div>
 		</div>
 	</section>
@@ -101,6 +102,7 @@
 					<li>Creativity and innovation as an <b>organization</b></li>
 					<li>Professionalism and Integrity as a <b>company</b></li>
 				</ul>
+				<p style="text-align:left; color:black;">We always believe that as individuals, we work together as a family even on a large scaled team. But we won't forget our primary identity as an organization which have to keep growing to keep up with times. But as times goes by, how we operates and how our system being developed consider us as a company. These values are encarved in our work and life to make things better. Not just for ourselves, but for everyone.</p>
 			</div>
 		</div>
 	</section>
@@ -110,7 +112,7 @@
 			<div class="large-4 columns">
 				<div class="divider-title">
 					<h2>The people in our</h2>
-					<h1>FAMILY</h1>
+					<h1><b>FAMILY</b></h1>
 				</div>
 			</div>
 			<div class="large-8 columns">
@@ -154,7 +156,7 @@
 			<div class="large-4 columns">
 				<div class="divider-title">
 					<h2>The activities and event of our</h2>
-					<h1>ORGANIZATION</h1>
+					<h1><b>ORGANIZATION</b></h1>
 				</div>
 			</div>
 			<div class="large-8 columns">
@@ -198,7 +200,7 @@
 			<div class="large-4 columns">
 				<div class="divider-title">
 					<h2>The products of our</h2>
-					<h1>COMPANY</h1>
+					<h1><b>COMPANY</b></h1>
 				</div>
 			</div>
 			<div class="large-8 columns">
@@ -213,23 +215,23 @@
 			<div class="large-12 large-collapse columns">
 				<div class="row row-label">
 					<div class="large-4 columns"><img src="<?php echo $this->config->base_url(); ?>/resource/img/bncc.png" alt=""></div>
-					<div class="large-4 columns"><img src="<?php echo $this->config->base_url(); ?>/resource/img/fave.png" alt=""></div>
-					<div class="large-4 columns"><img src="<?php echo $this->config->base_url(); ?>/resource/img/file.png" alt=""></div>
+					<div class="large-4 columns"><a href="http://fave.bncc.net"><img src="<?php echo $this->config->base_url(); ?>/resource/img/fave.png" alt=""></a></div>
+					<div class="large-4 columns"><a href="http://www.file-magz.com"><img src="<?php echo $this->config->base_url(); ?>/resource/img/file.png" alt=""></a></div>
 				</div>
 				<div class="row row-content">
 					<div class="large-4 columns">
 						<img src="<?php echo $this->config->base_url(); ?>/resource/img/flower.jpg" alt="">
-						<h2>Alvion-Alpha Innovation</h2>
+						<h2>Learning and Training</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 					</div>
 					<div class="large-4 columns">
 						<img src="<?php echo $this->config->base_url(); ?>/resource/img/flower.jpg" alt="">
-						<h2>BNCC Overclocking Activity</h2>
+						<h2>fave</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 					</div>
 					<div class="large-4 columns">
 						<img src="<?php echo $this->config->base_url(); ?>/resource/img/flower.jpg" alt="">
-						<h2>BNCC Technomeetup</h2>
+						<h2>FILE Magazine</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 					</div>
 				</div>
@@ -242,7 +244,7 @@
 			<div class="large-7 columns">
 				<div class="divider-title">
 					<h2>We'd be glad if you</h2>
-					<h1>CONTACT US</h1>
+					<h1><b>CONTACT US</b></h1>
 				</div>
 			</div>
 			<div class="large-5 columns">
