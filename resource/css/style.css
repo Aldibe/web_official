@@ -5,6 +5,12 @@ body{
 body *{
 }
 
+h5{
+	color:white;
+	transform: translateY(0.1em);
+	-webkit-transform: translateY(0.1em);
+}
+
 /*=======TOP FILLER=======*/
 .filler {
 	width: 100%;
@@ -375,14 +381,13 @@ hop{
 
 /*=======CONTACT=======*/
 #contact .row{
-	
+	padding-top: 2em;
 	padding-bottom: 2em;
 }
 #contact p{
 	margin-bottom: 0;
 }
 #contact h2{
-	padding-top: 2em;
 	font-size: 1em;
 	color: #f3eeee;
 	margin-bottom: 0;

@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="description" content="BNCC (Bina Nusantara Computer Club) is the only student activity club based on computer in Binus University. BNCC is keep growing to give the best to all parties that have relation with it.">
+	<meta name="keywords" content="bncc, bncc.net, dunia it, indonesia online, Online, network, teknologi, binus, bina nusantara, universitas, event organizer, FILE, software house, fave">
+	<meta name="author" content="BNCC - RnD 4th Generation">
+	
 	<title>Bina Nusantara Computer Club :: The Official Site</title>
 	<link rel="shortcut icon" href="<?php echo $this->config->base_url(); ?>/resource/img/favicon.ico" type="image/x-icon"/>
 	<link rel="stylesheet" href="<?php echo $this->config->base_url(); ?>/resource/css/foundation.css" />
@@ -31,23 +35,23 @@
 		<div class="row">
 			<div class="large-6 columns">
 				<p>An <span class="strong">organization</span> of excellent youth in continous development of technology innovation, products, and services for the people</p>
-				<br><a href="#family" class="button smoothScroll">> EXPLORE</a>
+				<br><a href="#family" class="button smoothScroll"><h5>> EXPLORE</h5></a>
 				
-			
 			</div>
 			<div class="large-6 columns" style="margin-top:120px">
 				<img src="<?php echo $this->config->base_url(); ?>/resource/img/laptop.png" alt="">
 			</div>
 		</div>
 	</section>
+	<section class="filler"></section>
 	<section class="news" id="section-news">
 		<div class="row">
 			<div class="large-12 columns">
-				<h3 class="section-title">NEWS</h3>
+				<h1 class="section-title">NEWS</h1>
 			</div>
-			<large-12 class="columns"></large-12>
 		</div>
 	</section>
+	<section class="filler"></section>
 	<section class="divider" id="greetings">
 		<div class="row textbox">
 			<div class="large-6 columns">
@@ -65,7 +69,7 @@
 			</div>
 		</div>
 	</section>
-
+	<section class="filler"></section>
 	<section id="vision">
 		<div class="row">
 			<div class="large-6 large-centered columns">
@@ -77,6 +81,7 @@
 			</div>
 		</div>
 	</section>
+	<section class="filler"></section>
 	<section id="mission">
 		<div class="row">
 			<div class="large-6 large-centered columns">
@@ -93,6 +98,7 @@
 			</div>
 		</div>
 	</section>
+	<section class="filler"></section>
 	<section id="culture">
 		<div class="row">
 			<div class="large-6 large-centered columns">
@@ -107,7 +113,7 @@
 			</div>
 		</div>
 	</section>
-
+	<section class="filler"></section>
 	<section class="divider" id="family">
 		<div class="row">
 			<div class="large-4 columns">
@@ -124,7 +130,7 @@
 			</div>
 		</div>
 	</section>
-
+	<section class="filler"></section>
 
 	<section id="structure">
 		<div class="row">
@@ -151,7 +157,8 @@
 			</div>
 		</div>
 	</section>
-
+	
+	<section class="filler"></section>
 	<section class="divider" id="organization">
 		<div class="row">
 			<div class="large-4 columns">
@@ -165,7 +172,7 @@
 			</div>
 		</div>
 	</section>
-
+	<section class="filler"></section>
 	<section id="activities">
 		<div class="row full">
 			<div class="large-12 large-collapse columns">
@@ -174,7 +181,8 @@
 					<div class="large-4 columns"><img src="<?php echo $this->config->base_url(); ?>/resource/img/bncc.png" alt=""></div>
 					<div class="large-4 columns"><img src="<?php echo $this->config->base_url(); ?>/resource/img/bncc.png" alt=""></div>
 				</div>
-				<div class="row row-content">
+				<div class="filler"></div>
+				<!--div class="row row-content">
 					<div class="large-4 columns">
 						<img src="<?php echo $this->config->base_url(); ?>/resource/img/flower.jpg" alt="">
 						<h2>Alvion-Alpha Innovation</h2>
@@ -190,11 +198,11 @@
 						<h2>BNCC Technomeetup</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 					</div>
-				</div>
+				</div>-->
 			</div><!-- large-12 -->
 		</div>
 	</section>
-
+	<section class="filler"></section>
 
 	<section class="divider" id="company">
 		<div class="row">
@@ -212,7 +220,7 @@
 			</div>
 		</div>
 	</section>
-
+	<section class="filler"></section>
 
 	<section id="products">
 		<div class="row full">
@@ -222,7 +230,8 @@
 					<div class="large-4 columns"><a href="http://fave.bncc.net"><img src="<?php echo $this->config->base_url(); ?>/resource/img/fave.png" alt=""></a></div>
 					<div class="large-4 columns"><a href="http://www.file-magz.com"><img src="<?php echo $this->config->base_url(); ?>/resource/img/file.png" alt=""></a></div>
 				</div>
-				<div class="row row-content">
+				<div class="filler"></div>
+				<!--<div class="row row-content">
 					<div class="large-4 columns">
 						<img src="<?php echo $this->config->base_url(); ?>/resource/img/flower.jpg" alt="">
 						<h2>Learning and Training</h2>
@@ -238,11 +247,11 @@
 						<h2>FILE Magazine</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 					</div>
-				</div>
+				</div>-->
 			</div><!-- large-12 -->
 		</div>
 	</section>
-
+	<section class="filler"></section>
 	<section class="divider" id="contact">
 		<div class="row">
 			<div class="large-7 columns">

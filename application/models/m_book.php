@@ -8,27 +8,77 @@ class M_book extends CI_Model {
         parent::__construct();
     }
     
-    function get_last_ten_entries()
+    function get_latest_news()
     {
-        $query = $this->db->get('entries', 10);
+        $query = $this->db->query('SELECT * FROM msnews ORDER BY date DESC LIMIT 5');
         return $query->result();
     }
 
-    function insert_entry()
+    function get_div_directors()
     {
-        $this->title   = $_POST['title']; // please read the below note
-        $this->content = $_POST['content'];
-        $this->date    = time();
-
-        $this->db->insert('entries', $this);
+        
+    }
+	
+	function get_div_marketing()
+    {
+        
+    }
+	
+	function get_div_product()
+    {
+        
+    }
+	
+	function get_div_resource()
+    {
+        
+    }
+	
+	function get_div_technology()
+    {
+        
     }
 
-    function update_entry()
+    function get_history()
     {
-        $this->title   = $_POST['title'];
-        $this->content = $_POST['content'];
-        $this->date    = time();
-
-        $this->db->update('entries', $this, array('id' => $_POST['id']));
+        $query = $this->db->query('SELECT * FROM mshistory');
+        return $query->result();
     }
+	
+	function get_story_eo()
+    {
+        $query = $this->db->query('SELECT * FROM msfacilities WHERE id=1');
+        return $query->result();
+    }
+	
+	function get_story_oc()
+    {
+        $query = $this->db->query('SELECT * FROM msfacilities WHERE id=2');
+        return $query->result();
+    }
+	
+	function get_story_techno()
+    {
+        $query = $this->db->query('SELECT * FROM msfacilities WHERE id=3');
+        return $query->result();
+    }
+	
+	function get_story_lnt()
+    {
+        $query = $this->db->query('SELECT * FROM msfacilities WHERE id=4');
+        return $query->result();
+    }
+	
+	function get_story_fave()
+    {
+        $query = $this->db->query('SELECT * FROM msfacilities WHERE id=5');
+        return $query->result();
+    }
+	
+	function get_story_file()
+    {
+        $query = $this->db->query('SELECT * FROM msfacilities WHERE id=6');
+        return $query->result();
+    }
+	
 }
