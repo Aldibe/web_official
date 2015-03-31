@@ -2,7 +2,7 @@
 
 class M_book extends CI_Model {
 
-	 function __construct()
+	function __construct()
     {
         // Call the Model constructor
         parent::__construct();
@@ -75,7 +75,7 @@ class M_book extends CI_Model {
         return $query->result();
     }
 	
-	function get_story_file()
+	function get_story_magz()
     {
         $query = $this->db->query('SELECT * FROM msfacilities WHERE id=6');
         return $query->result();
