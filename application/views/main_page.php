@@ -31,7 +31,7 @@
 		<div class="row">
 			<div class="large-6 columns">
 				<p>An <span class="strong">organization</span> of excellent youth in continous development of technology innovation, products, and services for the people</p>
-				<br><a href="#" class="button">> EXPLORE</a>
+				<br><a href="#family" class="button smoothScroll">> EXPLORE</a>
 				
 			
 			</div>
@@ -49,11 +49,12 @@
 		</div>
 	</section>
 	<section class="divider" id="greetings">
-		<div class="row">
+		<div class="row textbox">
 			<div class="large-6 columns">
 				<div class="divider-title">
 					<h2>Adhy Wiranata Prasetyo - Chief Executive Officer of BNCC</h2>
 					<h1><b>GREETINGS</b></h1>
+					
 				</div>
 			</div>
 			<div class="large-6 columns">
@@ -116,7 +117,7 @@
 				</div>
 			</div>
 			<div class="large-8 columns">
-				<p><b>Lorem ipsum dolor</b> sit amet, consectetur adipisicing elit. Quisquam quos beatae culpa, rem architecto deserunt officiis, dicta iste, eligendi, accusamus ducimus doloremque minima nam quia eaque molestias odit possimus ad.</p>
+				<p><b>Bina Nusantara Computer Club</b> has been founded since 1989 and now has reached its 25th anniversary. This marked us as a mature organization which always create technology innovation and other breakthrough throughout the years. But the history won't be made if there are no dedicated persons who spend their time and energy to run the organization.</p>
 				<br>
 				<a class="button" id="btnStructure">STRUCTURE</a>
 				<a class="button" id="btnHistory">HISTORY</a>
@@ -160,7 +161,7 @@
 				</div>
 			</div>
 			<div class="large-8 columns">
-				<p><b>Lorem ipsum dolor</b> sit amet, consectetur adipisicing elit. Quisquam quos beatae culpa, rem architecto deserunt officiis, dicta iste, eligendi, accusamus ducimus doloremque minima nam quia eaque molestias odit possimus ad.</p>
+				<p><b>Bina Nusantara Computer Club</b> has done countless activities, including holding a large-scale events in campus or shopping malls, IT competitions and tournaments, social charity events, IT trainings and workshops, and creating overclocking and technopreneur community in BINUS University.</p>
 			</div>
 		</div>
 	</section>
@@ -203,8 +204,11 @@
 					<h1><b>COMPANY</b></h1>
 				</div>
 			</div>
-			<div class="large-8 columns">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi id praesentium dignissimos, culpa harum beatae rerum! Fugiat voluptates, eaque. Laboriosam explicabo nobis doloribus sit. Dicta ullam doloribus reiciendis quaerat ipsam voluptatibus voluptate.</p>
+			<div class="large-6 columns">
+				<p><b>Bina Nusantara Computer Club</b> currently has three products, which are:</p>
+				<p>Learning and Training, the IT training classes for BINUS Students to enrich their portfolio and to prepare them to the career world,</p>
+				<p>fave, a software house which do web and mobile application development and also multimedia development as an IT solution for personal and companies,</p>
+				<p>FILE Magazine, the free IT lifestyle magazine which gives the readers the latest update about the current technologies and its implementation in their real lifes.</p>
 			</div>
 		</div>
 	</section>

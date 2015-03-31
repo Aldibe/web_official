@@ -107,6 +107,19 @@ body *{
     border-left:200px solid transparent;
     border-right:200px solid transparent;
 }*/
+
+/* berhubung tulisan kadang ga kliatan gara2 bg :v */
+.textbox {
+-moz-border-radius: 15px; /*for mozilla support*/
+-webkit-border-radius: 15px; /*for chrome support*/
+border-radius: 15px;
+background-color : #00b0da;
+}
+/* end of note :v */
+#greetings{
+	background-image: url("../img/greetingsbg.png");
+	background-repeat: repeat;
+}
 .divider>.row{
 	height: 100%;
 	position:relative;
@@ -140,10 +153,12 @@ hop{
 #greetings h2{
 	font-size: 1em;
 	color: #f3eeee;
-	transform: translateY(3.4em);
+	transform: translateY(2.8em);
+	-webkit-transform: translateY(2.8em);
 }
 #greetings h1{
-	transform: translateY(0.4em);
+	transform: translateY(0.2em);
+	-webkit-transform: translateY(0.2em);
 	font-size: 5em;
 	margin-bottom: 0;
 	color: #f3eeee;
@@ -319,10 +334,6 @@ hop{
 
 /*=======COMPANY=======*/
 
-#company p{
-	margin-top: 3em;
-	margin-bottom: 5em;
-}
 #company h2{
 	font-size: 1em;
 	color: #f3eeee;
