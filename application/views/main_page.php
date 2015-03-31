@@ -252,12 +252,12 @@
 				</div>
 			</div>
 			<div class="large-5 columns">
-				<p>pr@bncc.net</p>
-				<p>binanusantaracomputerclub</p>
-				<p>@bnccbinus</p>
-				<p>@bnccbinus</p>
-				<p>Jl. Kebon Jeruk Raya No. 50 Kemanggisan, Jakarta Barat 11480</p>
-				<p>021-53653279</p>
+				<p><span class="fa fa-envelope fa-lg" style="padding-right:15px;"></span><t/>pr@bncc.net</p>
+				<p><span class="fa fa-facebook-square fa-lg" style="padding-right:15px;padding-left:2px"></span>Bina Nusantara Computer Club</p>
+				<p><span class="fa fa-twitter-square fa-lg" style="padding-right:15px;padding-left:2px"></span>@BNCC_Binus</p>
+				<p><span class="fa fa-instagram fa-lg" style="padding-right:15px;padding-left:2px"></span>@bnccbinus</p>
+				<p><span class="fa fa-map-marker fa-lg" style="padding-right:18px;padding-left:5px"></span>Jl. Kebon Jeruk Raya No. 50 Kemanggisan, Jakarta Barat 11480</p>
+				<p><span class="fa fa-phone-square fa-lg" style="padding-right:15px;padding-left:2px"></span>021-53653279</p>
 			</div>
 		</div>
 	</section>
