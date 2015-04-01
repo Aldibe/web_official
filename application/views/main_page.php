@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="offcApp">
 <head>
 	<meta charset="UTF-8">
 	<meta name="description" content="BNCC (Bina Nusantara Computer Club) is the only student activity club based on computer in Binus University. BNCC is keep growing to give the best to all parties that have relation with it.">
@@ -14,10 +14,10 @@
 		<script src="<?php echo $this->config->base_url(); ?>/resource/js/jquery.js"></script>
 		<script src="<?php echo $this->config->base_url(); ?>/resource/js/vendor/modernizr.js"></script>
 		<script src="<?php echo $this->config->base_url(); ?>/resource/js/showhide.js"></script>
-		<script src="<?php echo $this->config->base_url(); ?>/resource/js/data.js"></script>
+		<script src="<?php echo $this->config->base_url(); ?>/resource/js/smoothscroll.js"></script>
+		<script src="<?php echo $this->config->base_url(); ?>/resource/js/angular.js"></script>
 </head>
 <body>
-	<!-- class="smoothScroll" -->
 	<section class="topbar">
 		<div class="logo">
 			<img src="<?php echo $this->config->base_url(); ?>/resource/img/bncc.png" alt="">
@@ -274,7 +274,7 @@
 	<!-- div buat popup -->
 	
 	<div id="openModal" class="modalDialog">
-		<div>
+		<div ng-controller="PopUpCtrl">
 			<a href="#close" title="Close" class="close">X</a>
 			<div id="cont_image"></div>
 			<div id="cont_text"></div>
