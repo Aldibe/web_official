@@ -23,7 +23,7 @@ class C_book extends CI_Controller {
 	public function structure_drct()
 	{
 		$this->load->model('M_book');
-		$data = $this->m_book->get_div_directors();
+		$data = $this->M_book->get_div_directors();
 		header('Content-type: application/json');
 		echo json_encode($data);
 	}
@@ -31,7 +31,7 @@ class C_book extends CI_Controller {
 	public function structure_mktg()
 	{
 		$this->load->model('M_book');
-		$data = $this->m_book->get_div_marketing();
+		$data = $this->M_book->get_div_marketing();
 		header('Content-type: application/json');
 		echo json_encode($data);
 	}
@@ -39,7 +39,7 @@ class C_book extends CI_Controller {
 	public function structure_prdc()
 	{
 		$this->load->model('M_book');
-		$data = $this->m_book->get_div_product();
+		$data = $this->M_book->get_div_product();
 		header('Content-type: application/json');
 		echo json_encode($data);
 	}
@@ -47,7 +47,7 @@ class C_book extends CI_Controller {
 	public function structure_rsrc()
 	{
 		$this->load->model('M_book');
-		$data =$this->m_book->get_div_resource();
+		$data =$this->M_book->get_div_resource();
 		header('Content-type: application/json');
 		echo json_encode($data);
 	}
@@ -55,7 +55,7 @@ class C_book extends CI_Controller {
 	public function structure_tchn()
 	{
 		$this->load->model('M_book');
-		$data = $this->m_book->get_div_technology();
+		$data = $this->M_book->get_div_technology();
 		header('Content-type: application/json');
 		echo json_encode($data);
 	}
@@ -63,7 +63,7 @@ class C_book extends CI_Controller {
 	public function history()
 	{
 		$this->load->model('M_book');
-		$data = $this->m_book->get_history();
+		$data = $this->M_book->get_history();
 		header('Content-type: application/json');
 		echo json_encode($data);
 	}
@@ -71,7 +71,7 @@ class C_book extends CI_Controller {
 	public function eo()
 	{
 		$this->load->model('M_book');
-		$data = $this->m_book->get_story_eo();
+		$data = $this->M_book->get_story_eo();
 		header('Content-type: application/json');
 		echo json_encode($data);
 	}
@@ -79,7 +79,7 @@ class C_book extends CI_Controller {
 	public function oc()
 	{
 		$this->load->model('M_book');
-		$data = $this->m_book->get_story_oc();
+		$data = $this->M_book->get_story_oc();
 		header('Content-type: application/json');
 		echo json_encode($data);
 	}
@@ -87,7 +87,7 @@ class C_book extends CI_Controller {
 	public function techno()
 	{
 		$this->load->model('M_book');
-		$data = $this->m_book->get_story_techno();
+		$data = $this->M_book->get_story_techno();
 		header('Content-type: application/json');
 		echo json_encode($data);
 	}
@@ -95,7 +95,7 @@ class C_book extends CI_Controller {
 	public function lnt()
 	{
 		$this->load->model('M_book');
-		$data = $this->m_book->get_story_lnt();
+		$data = $this->M_book->get_story_lnt();
 		header('Content-type: application/json');
 		echo json_encode($data);
 	}
@@ -103,7 +103,7 @@ class C_book extends CI_Controller {
 	public function fave()
 	{
 		$this->load->model('M_book');
-		$data = $this->m_book->get_story_fave();
+		$data = $this->M_book->get_story_fave();
 		header('Content-type: application/json');
 		echo json_encode($data);
 	}
@@ -111,7 +111,7 @@ class C_book extends CI_Controller {
 	public function magz()
 	{
 		$this->load->model('M_book');
-		$data = $this->m_book->get_story_magz();
+		$data = $this->M_book->get_story_magz();
 		header('Content-type: application/json');
 		echo json_encode($data);
 	}
