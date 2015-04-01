@@ -9,83 +9,96 @@ class M_book extends CI_Model {
     }
     
 	//biar gampang ganti2 generasi
-	var $generation = '26';
+	private $generation = '26';
 	
     function get_latest_news()
     {
-        $query = $this->db->query('SELECT * FROM msnews ORDER BY date DESC LIMIT 5');
+		$sql = "SELECT * FROM msnews ORDER BY date DESC LIMIT 5";
+        $query = $this->db->query($sql);
         return $query->result();
     }
 
     function get_div_directors()
     {
-        $query = $this->db->query('SELECT * FROM msstructure_'.$generation.' WHERE divisi_id=1');
+		$sql = "SELECT * FROM msstructure_".$this->generation." WHERE divisi_id=1";
+        $query = $this->db->query($sql);
         return $query->result();
     }
 	
 	function get_div_marketing()
     {
-        $query = $this->db->query('SELECT * FROM msstructure_'.$generation.' WHERE divisi_id=2');
+		$sql = "SELECT * FROM msstructure_".$this->generation." WHERE divisi_id=2";
+        $query = $this->db->query($sql);
         return $query->result();
     }
 	
 	function get_div_product()
     {
-        $query = $this->db->query('SELECT * FROM msstructure_'.$generation.' WHERE divisi_id=3');
+		$sql = "SELECT * FROM msstructure_".$this->generation." WHERE divisi_id=3";
+        $query = $this->db->query($sql);
         return $query->result();
     }
 	
 	function get_div_resource()
     {
-        $query = $this->db->query('SELECT * FROM msstructure_'.$generation.' WHERE divisi_id=4');
+		$sql = "SELECT * FROM msstructure_".$this->generation." WHERE divisi_id=4";
+        $query = $this->db->query($sql);
         return $query->result();
     }
 	
 	function get_div_technology()
     {
-        $query = $this->db->query('SELECT * FROM msstructure_'.$generation.' WHERE divisi_id=5');
+		$sql = "SELECT * FROM msstructure_".$this->generation." WHERE divisi_id=5";
+        $query = $this->db->query($sql);
         return $query->result();
     }
 
     function get_history()
     {
-        $query = $this->db->query('SELECT * FROM mshistory');
+		$sql = "SELECT * FROM mshistory";
+        $query = $this->db->query($sql);
         return $query->result();
     }
 	
 	function get_story_eo()
     {
-        $query = $this->db->query('SELECT * FROM msfacilities WHERE id=1');
+		$sql = "SELECT * FROM msfacilities WHERE id=1";
+        $query = $this->db->query($sql);
         return $query->result();
     }
 	
 	function get_story_oc()
     {
-        $query = $this->db->query('SELECT * FROM msfacilities WHERE id=2');
+        $sql = "SELECT * FROM msfacilities WHERE id=2";
+        $query = $this->db->query($sql);
         return $query->result();
     }
 	
 	function get_story_techno()
     {
-        $query = $this->db->query('SELECT * FROM msfacilities WHERE id=3');
+        $sql = "SELECT * FROM msfacilities WHERE id=3";
+        $query = $this->db->query($sql);
         return $query->result();
     }
 	
 	function get_story_lnt()
     {
-        $query = $this->db->query('SELECT * FROM msfacilities WHERE id=4');
+        $sql = "SELECT * FROM msfacilities WHERE id=4";
+        $query = $this->db->query($sql);
         return $query->result();
     }
 	
 	function get_story_fave()
     {
-        $query = $this->db->query('SELECT * FROM msfacilities WHERE id=5');
+        $sql = "SELECT * FROM msfacilities WHERE id=5";
+        $query = $this->db->query($sql);
         return $query->result();
     }
 	
 	function get_story_magz()
     {
-        $query = $this->db->query('SELECT * FROM msfacilities WHERE id=6');
+        $sql = "SELECT * FROM msfacilities WHERE id=6";
+        $query = $this->db->query($sql);
         return $query->result();
     }
 	
