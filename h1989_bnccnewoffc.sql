@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.1.6
+-- version 4.1.12
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 31, 2015 at 01:04 PM
+-- Generation Time: Apr 01, 2015 at 02:09 AM
 -- Server version: 5.6.16
--- PHP Version: 5.5.9
+-- PHP Version: 5.5.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -30,6 +30,7 @@ CREATE TABLE IF NOT EXISTS `msfacilities` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `picture` varchar(50) NOT NULL,
   `description` longtext NOT NULL,
+  `link` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
 

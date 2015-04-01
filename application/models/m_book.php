@@ -8,6 +8,9 @@ class M_book extends CI_Model {
         parent::__construct();
     }
     
+	//biar gampang ganti2 generasi
+	var $generation = '26';
+	
     function get_latest_news()
     {
         $query = $this->db->query('SELECT * FROM msnews ORDER BY date DESC LIMIT 5');
@@ -16,27 +19,32 @@ class M_book extends CI_Model {
 
     function get_div_directors()
     {
-        
+        $query = $this->db->query('SELECT * FROM msstructure_'.$generation.' WHERE divisi_id=1');
+        return $query->result();
     }
 	
 	function get_div_marketing()
     {
-        
+        $query = $this->db->query('SELECT * FROM msstructure_'.$generation.' WHERE divisi_id=2');
+        return $query->result();
     }
 	
 	function get_div_product()
     {
-        
+        $query = $this->db->query('SELECT * FROM msstructure_'.$generation.' WHERE divisi_id=3');
+        return $query->result();
     }
 	
 	function get_div_resource()
     {
-        
+        $query = $this->db->query('SELECT * FROM msstructure_'.$generation.' WHERE divisi_id=4');
+        return $query->result();
     }
 	
 	function get_div_technology()
     {
-        
+        $query = $this->db->query('SELECT * FROM msstructure_'.$generation.' WHERE divisi_id=5');
+        return $query->result();
     }
 
     function get_history()

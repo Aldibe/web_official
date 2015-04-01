@@ -177,9 +177,9 @@
 		<div class="row full">
 			<div class="large-12 large-collapse columns">
 				<div class="row row-label">
-					<div class="large-4 columns"><img src="<?php echo $this->config->base_url(); ?>/resource/img/bncc.png" alt=""></div>
-					<div class="large-4 columns"><img src="<?php echo $this->config->base_url(); ?>/resource/img/bncc.png" alt=""></div>
-					<div class="large-4 columns"><img src="<?php echo $this->config->base_url(); ?>/resource/img/bncc.png" alt=""></div>
+					<div class="large-4 columns"><a href="#openModal"><img src="<?php echo $this->config->base_url(); ?>/resource/img/bncc.png" alt=""></a></div>
+					<div class="large-4 columns"><a href="#openModal"><img src="<?php echo $this->config->base_url(); ?>/resource/img/bncc.png" alt=""></a></div>
+					<div class="large-4 columns"><a href="#openModal"><img src="<?php echo $this->config->base_url(); ?>/resource/img/bncc.png" alt=""></a></div>
 				</div>
 				<div class="filler"></div>
 				<!--div class="row row-content">
@@ -226,9 +226,9 @@
 		<div class="row full">
 			<div class="large-12 large-collapse columns">
 				<div class="row row-label">
-					<div class="large-4 columns"><img src="<?php echo $this->config->base_url(); ?>/resource/img/bncc.png" alt=""></div>
-					<div class="large-4 columns"><a href="http://fave.bncc.net"><img src="<?php echo $this->config->base_url(); ?>/resource/img/fave.png" alt=""></a></div>
-					<div class="large-4 columns"><a href="http://www.file-magz.com"><img src="<?php echo $this->config->base_url(); ?>/resource/img/file.png" alt=""></a></div>
+					<div class="large-4 columns"><a href="#openModal"><img src="<?php echo $this->config->base_url(); ?>/resource/img/bncc.png" alt=""></a></div>
+					<div class="large-4 columns"><a href="#openModal"><img src="<?php echo $this->config->base_url(); ?>/resource/img/fave.png" alt=""></a></div>
+					<div class="large-4 columns"><a href="#openModal"><img src="<?php echo $this->config->base_url(); ?>/resource/img/file.png" alt=""></a></div>
 				</div>
 				<div class="filler"></div>
 				<!--<div class="row row-content">
@@ -270,5 +270,6 @@
 			</div>
 		</div>
 	</section>
+	
 </body>
 </html>
