@@ -15,7 +15,7 @@ class C_book extends CI_Controller {
 	public function news()
 	{
 		$this->load->model('M_book');
-		$data = $this->m_book->get_latest_news();
+		$data = $this->M_book->get_latest_news();
 		header('Content-type: application/json');
 		echo json_encode($data);
 	}
