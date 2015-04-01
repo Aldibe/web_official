@@ -13,29 +13,29 @@
 	<link rel="stylesheet" href="<?php echo $this->config->base_url(); ?>/resource/css/font-awesome.css">
 		<script src="<?php echo $this->config->base_url(); ?>/resource/js/jquery.js"></script>
 		<script src="<?php echo $this->config->base_url(); ?>/resource/js/vendor/modernizr.js"></script>
-		<script src="<?php echo $this->config->base_url(); ?>/resource/js/smoothscroll.js"></script>
 		<script src="<?php echo $this->config->base_url(); ?>/resource/js/showhide.js"></script>
+		<script src="<?php echo $this->config->base_url(); ?>/resource/js/data.js"></script>
 </head>
 <body>
-
+	<!-- class="smoothScroll" -->
 	<section class="topbar">
 		<div class="logo">
 			<img src="<?php echo $this->config->base_url(); ?>/resource/img/bncc.png" alt="">
 		</div>
 		<div class="navbar">
-			<a href="#home" class="smoothScroll">HOME</a>
-			<a href="#section-news" class="smoothScroll">NEWS</a>
-			<a href="#greetings" class="smoothScroll">ABOUT</a>
-			<a href="#organization" class="smoothScroll">EVENTS</a>
-			<a href="#company" class="smoothScroll">PRODUCTS</a>
-			<a href="#contact" class="smoothScroll">CONTACTS</a>
+			<a href="#home">HOME</a>
+			<a href="#section-news">NEWS</a>
+			<a href="#greetings">ABOUT</a>
+			<a href="#organization">EVENTS</a>
+			<a href="#company">PRODUCTS</a>
+			<a href="#contact">CONTACTS</a>
 		</div>
 	</section>
 	<section class="vision-top" id="home">
 		<div class="row">
 			<div class="large-6 columns">
 				<p>An <span class="strong">organization</span> of excellent youth in continous development of technology innovation, products, and services for the people</p>
-				<br><a href="#family" class="button smoothScroll"><h5>> EXPLORE</h5></a>
+				<br><a href="#family" class="button"><h5>> EXPLORE</h5></a>
 				
 			</div>
 			<div class="large-6 columns" style="margin-top:120px">
@@ -152,7 +152,7 @@
 			<div class="large-8 large-centered columns">
 				<center><h2>HISTORY</h2></center>
 				<div class="history">
-
+					
 				</div>
 			</div>
 		</div>
@@ -270,6 +270,19 @@
 			</div>
 		</div>
 	</section>
+	
+	<!-- div buat popup -->
+	
+	<div id="openModal" class="modalDialog">
+		<div>
+			<a href="#close" title="Close" class="close">X</a>
+			<h2>Modal Box</h2>
+			<p>This is a sample modal box that can be created using the powers of CSS3.</p>
+			<p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+		</div>
+	</div>
+	
+	
 	
 </body>
 </html>

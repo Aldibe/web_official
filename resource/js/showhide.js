@@ -2,12 +2,13 @@ $(document).ready(function(){
 	$("#history").hide();
 	
 	$("#btnStructure").click(function(){
-		$("#history").fadeOut(1000);
-		$("#structure").delay(1000).fadeIn(1000);
+		$("#history").fadeOut(500);
+		$("#structure").delay(500).fadeIn(500);
 	});
 
 	$("#btnHistory").click(function(){
-		$("#structure").fadeOut(1000);
-		$("#history").delay(1000).fadeIn(1000);
+		
+		$("#structure").fadeOut(500);
+		$("#history").delay(500).fadeIn(500);
 	});
 }); 
