@@ -462,5 +462,29 @@ hop{
 
 /* buat bagian structure */
 
-
+/*Css Daniel*/
+.img-responsive{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.row{
+	max-width: 85%;
+}
+.small{
+	font-size: 80%;
+}
+.less-break{
+	margin-top: -20px;
+}
+.padding-reset{
+	padding: 0;
+}
+.vertical-space{
+	margin-bottom: 15px!important;
+}
+.link:hover{
+	color: #0078A0;
+	cursor: pointer;
+}
 

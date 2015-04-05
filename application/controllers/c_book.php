@@ -5,6 +5,8 @@ class C_book extends CI_Controller {
 	public function __construct()
     {
         parent::__construct();
+        $this->load->model('M_book');
+        header('Access-Control-Allow-Origin: *');
     }
 	
 	public function index()
@@ -116,5 +118,27 @@ class C_book extends CI_Controller {
 		echo json_encode($data);
 	}
 	
-	
+	public function getVision(){
+		$data = $this->M_book->getVision();
+		header('Content-type: application/json');
+		echo json_encode($data);
+	}
+
+	public function getGreeting(){
+		$data = $this->M_book->getGreeting();
+		header('Content-type: application/json');
+		echo json_encode($data);
+	}
+
+	public function getMission(){
+		$data = $this->M_book->getMission();
+		header('Content-type: application/json');
+		echo json_encode($data);
+	}
+
+	public function getCulture(){
+		$data = $this->M_book->getCulture();
+		header('Content-type: application/json');
+		echo json_encode($data);
+	}
 }

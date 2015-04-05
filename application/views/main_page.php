@@ -11,13 +11,19 @@
 	<link rel="stylesheet" href="<?php echo $this->config->base_url(); ?>/resource/css/foundation.css" />
 	<link rel="stylesheet" href="<?php echo $this->config->base_url(); ?>/resource/css/style.css" />
 	<link rel="stylesheet" href="<?php echo $this->config->base_url(); ?>/resource/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="<?php echo $this->config->base_url(); ?>/resource/css/iPicture.css"/>
 		<script src="<?php echo $this->config->base_url(); ?>/resource/js/jquery.js"></script>
 		<script src="<?php echo $this->config->base_url(); ?>/resource/js/vendor/modernizr.js"></script>
 		<script src="<?php echo $this->config->base_url(); ?>/resource/js/showhide.js"></script>
 		<script src="<?php echo $this->config->base_url(); ?>/resource/js/smoothscroll.js"></script>
+		<script src="<?php echo $this->config->base_url(); ?>/resource/js/jquery.ipicture.js"></script>
+
 		<script src="<?php echo $this->config->base_url(); ?>/resource/js/angular.js"></script>
+		<script src="<?php echo $this->config->base_url(); ?>/resource/js/angulardata.js"></script>
+		<script src="<?php echo $this->config->base_url(); ?>/resource/js/angular-sanitize.min.js"></script>
+
 </head>
-<body>
+<body ng-controller="clickCtrl">
 	<section class="topbar">
 		<div class="logo">
 			<img src="<?php echo $this->config->base_url(); ?>/resource/img/bncc.png" alt="">
@@ -33,11 +39,12 @@
 	</section>
 	<section class="vision-top" id="home">
 		<div class="row">
-			<div class="large-6 columns">
-				<p>An <span class="strong">organization</span> of excellent youth in continous development of technology innovation, products, and services for the people</p>
+			<div class="large-6 columns" ng-controller="getVisionCtrl">
+				<p ng-bind-html="vision"></p>
 				<br><a href="#family" class="button"><h5>> EXPLORE</h5></a>
-				
+
 			</div>
+
 			<div class="large-6 columns" style="margin-top:120px">
 				<img src="<?php echo $this->config->base_url(); ?>/resource/img/laptop.png" alt="">
 			</div>
@@ -50,33 +57,69 @@
 				<h1 class="section-title">NEWS</h1>
 			</div>
 		</div>
+		<div class="row">
+			<div class="medium-6 columns">
+				<p class="small">November 27, 2014</p>
+				<p class="strong less-break link">BNCC Menerima Penghargaan Organisasi Terbaik 2013</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="medium-6 columns">
+				<img src="<?php echo $this->config->base_url();?>resource/img/38455-doge-windoge-7.jpg" class="img-responsive">
+			</div>
+			<div class="medium-6 columns" style="padding-left: 0">
+				<div class="row vertical-space">
+					<div class="medium-3 columns">
+						<img src="<?php echo $this->config->base_url();?>resource/img/doge.jpg" class="img-responsive right">
+					</div>
+					<div class="medium-9 columns padding-reset">
+						<p class="strong link">Selamat Natal dan Tahun Baru 2013-2014</p>
+						<p class="small less-break">November 27, 2014</p>
+					</div>
+				</div>
+				<div class="row vertical-space">
+					<div class="medium-3 columns">
+						<img src="<?php echo $this->config->base_url();?>resource/img/doge.jpg" class="img-responsive right">
+					</div>
+					<div class="medium-9 columns padding-reset">
+						<p class="strong link">Selamat Natal dan Tahun Baru 2013-2014</p>
+						<p class="small less-break">November 27, 2014</p>
+					</div>
+				</div>
+				<div class="row vertical-space">
+					<div class="medium-3 columns">
+						<img src="<?php echo $this->config->base_url();?>resource/img/doge.jpg" class="img-responsive right">
+					</div>
+					<div class="medium-9 columns padding-reset">
+						<p class="strong link">Selamat Natal dan Tahun Baru 2013-2014</p>
+						<p class="small less-break">November 27, 2014</p>
+					</div>
+				</div>
+			</div>
 	</section>
 	<section class="filler"></section>
-	<section class="divider" id="greetings">
+	<section class="divider" id="greetings" ng-controller="getGreetingCtrl">
 		<div class="row textbox">
 			<div class="large-6 columns">
 				<div class="divider-title">
-					<h2>Adhy Wiranata Prasetyo - Chief Executive Officer of BNCC</h2>
+					<h2>{{CEO}} - Chief Executive Officer of BNCC</h2>
 					<h1><b>GREETINGS</b></h1>
 					
 				</div>
 			</div>
 			<div class="large-6 columns">
-				<p><b>Bina Nusantara Computer Club</b> is a computer-based organization in Binus University and we are a family of excellent youth who works passionately and professionally.</p>
-				<p>Established on 1989, BNCC has now reached its 25th year. It has been a long milestone for us to create a strong foundation and belief to learn and forge ourselves with computer, technology business, and organizational skills.</p>
-				<p><b>BNCC</b> educate others in computer and organizational knowledge, having technology products such as software house and online magazine, doing technology research, and creating technology communities inside and outside the university.</p>
-				<p>Be successful by joining us. Be a part of our family and relation and become one of the future generation, a generation which will always give innovations on the technology era.</p>
+				<p ng-bind-html="greetings"></p>
 			</div>
 		</div>
 	</section>
 	<section class="filler"></section>
-	<section id="vision">
+	<section id="vision" ng-controller="getVisionCtrl">
 		<div class="row">
 			<div class="large-6 large-centered columns">
 				<i class="fa fa-plane fa-5x"></i>
 				<h1>VISION</h1>
-				<p>
-					An organization of excellent youth in continous development of technology innovation, products, and services for the people
+				<p ng-bind-html="vision">
+					
 				</p>
 			</div>
 		</div>
@@ -84,16 +127,12 @@
 	<section class="filler"></section>
 	<section id="mission">
 		<div class="row">
-			<div class="large-6 large-centered columns">
+			<div class="large-6 large-centered columns" ng-controller="getMissionCtrl">
 				<i class="fa fa-cog fa-5x"></i>
 				<h1>MISSION</h1>
 				<ul>
-					<li>Creating an organization strongly embraced by culture</li>
-					<li>Providing relevant computer education to Binus students</li>
-					<li>Building passionate communities of technology trends</li>
-					<li>Developing reliable rechnology products and services</li>
-					<li>Empower the organization's relation to tthe professional world</li>
-					<li>Giving social contribution to the people of Indonesia</li>
+					<li ng-repeat="x in missions">{{x.missionDetail}}</li>
+					
 				</ul>
 			</div>
 		</div>
@@ -101,13 +140,13 @@
 	<section class="filler"></section>
 	<section id="culture">
 		<div class="row">
-			<div class="large-6 large-centered columns">
+			<div class="large-6 large-centered columns" ng-controller="getCultureCtrl">
 				<i class="fa fa-stumbleupon-circle fa-5x"></i>
 				<h1>CULTURE</h1>
-				<ul>
-					<li>Solidarity and respect as a <b>family</b></li>
-					<li>Creativity and innovation as an <b>organization</b></li>
-					<li>Professionalism and Integrity as a <b>company</b></li>
+				<ul ng-bind-html="cult">
+					
+					
+					
 				</ul>
 				<p style="text-align:left; color:black;">We always believe that as individuals, we work together as a family even on a large scaled team. But we won't forget our primary identity as an organization which have to keep growing to keep up with times. But as times goes by, how we operates and how our system being developed consider us as a company. These values are encarved in our work and life to make things better. Not just for ourselves, but for everyone.</p>
 			</div>
@@ -122,17 +161,18 @@
 					<h1><b>FAMILY</b></h1>
 				</div>
 			</div>
+			
 			<div class="large-8 columns">
 				<p><b>Bina Nusantara Computer Club</b> has been founded since 1989 and now has reached its 25th anniversary. This marked us as a mature organization which always create technology innovation and other breakthrough throughout the years. But the history won't be made if there are no dedicated persons who spend their time and energy to run the organization.</p>
 				<br>
-				<a class="button" id="btnStructure">STRUCTURE</a>
-				<a class="button" id="btnHistory">HISTORY</a>
+				<a class="button" id="btnStructure" ng-click="structureClicked()">STRUCTURE</a>
+				<a class="button" id="btnHistory" ng-click="historyClicked()">HISTORY</a>
 			</div>
 		</div>
 	</section>
 	<section class="filler"></section>
 
-	<section id="structure">
+	<section id="structure" ng-show="isStructure">
 		<div class="row">
 			<div class="large-8 large-centered columns">
 				<center><h2>ORGANIZATIONAL STRUCTURE</h2></center>
@@ -147,12 +187,24 @@
 		</div>
 	</section>
 
-	<section id="history">
+	<section id="history" ng-show="isHistory">
 		<div class="row">
 			<div class="large-8 large-centered columns">
-				<center><h2>HISTORY</h2></center>
+				
 				<div class="history">
-					
+					<div id="iPicture" data-interaction="hover">   
+							<div class="ip_slide" style="background-color:black">
+									
+									<div class="ip_tooltip ip_img32" style="top: -10px;" data-animationtype="ltr-slide" data-button="beadblue" data-tooltipbg="bgblack" data-round="roundBgW">
+									<p>
+										<iframe style="margin-top:10px;" width="360" height="215" src="http://www.youtube.com/embed/SPeF2kuM_aU?wmode=transparent" frameborder="0" allowfullscreen></iframe>
+									</p>
+								</div>
+								<div class="ip_tooltip ip_img32" style="top: 60px; left: 618px;" data-animationtype="ttb-slide" data-button="beadblue" data-tooltipbg="bgblack" data-round="roundBgW">
+									<p>BNCC Member Social Network on<br/><a target="blank" href="http://www.member.bncc.net">www.member.bncc.net</a></p>
+								</div>
+							</div>
+						</div>
 				</div>
 			</div>
 		</div>

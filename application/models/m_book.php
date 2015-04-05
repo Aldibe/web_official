@@ -102,4 +102,27 @@ class M_book extends CI_Model {
         return $query->result();
     }
 	
+    function getVision(){
+        $sql = "SELECT * from msvision where generation=".$this->generation;
+        $query = $this->db->query($sql);
+        return $query->row();
+    }
+
+    function getGreeting(){
+        $sql = "SELECT * from msgreeting where generation=".$this->generation;
+        $query = $this->db->query($sql);
+        return $query->row();
+    }
+
+    function getMission(){
+        $sql = "SELECT * from msmission where generation=".$this->generation;
+        $query = $this->db->query($sql);
+        return $query->result();
+    }
+
+    function getCulture(){
+        $sql = "SELECT * from msculture where generation=".$this->generation;
+        $query = $this->db->query($sql);
+        return $query->result();
+    }
 }
