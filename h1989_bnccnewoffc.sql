@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.0.10.7
+-- version 4.1.12
 -- http://www.phpmyadmin.net
 --
--- Host: localhost
--- Generation Time: Apr 05, 2015 at 03:49 PM
--- Server version: 5.5.40-cll
--- PHP Version: 5.4.23
+-- Host: 127.0.0.1
+-- Generation Time: Apr 01, 2015 at 02:09 AM
+-- Server version: 5.6.16
+-- PHP Version: 5.5.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -23,28 +23,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `msculture`
---
-
-CREATE TABLE IF NOT EXISTS `msculture` (
-  `cultureId` int(11) NOT NULL AUTO_INCREMENT,
-  `cultureDetail` text NOT NULL,
-  `generation` int(11) NOT NULL,
-  PRIMARY KEY (`cultureId`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
-
---
--- Dumping data for table `msculture`
---
-
-INSERT INTO `msculture` (`cultureId`, `cultureDetail`, `generation`) VALUES
-(1, 'Solidarity and respect as a <b>family</b>', 26),
-(2, 'Creativity and innovation as an <b>organization</b>', 26),
-(3, 'Professionalism and Integrity as a <b>company</b', 26);
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `msfacilities`
 --
 
@@ -55,28 +33,6 @@ CREATE TABLE IF NOT EXISTS `msfacilities` (
   `link` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `msgreeting`
---
-
-CREATE TABLE IF NOT EXISTS `msgreeting` (
-  `greetingId` int(11) NOT NULL AUTO_INCREMENT,
-  `CEOName` varchar(255) NOT NULL,
-  `greetingDetail` text NOT NULL,
-  `photoLink` varchar(255) NOT NULL,
-  `generation` int(11) NOT NULL,
-  PRIMARY KEY (`greetingId`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
-
---
--- Dumping data for table `msgreeting`
---
-
-INSERT INTO `msgreeting` (`greetingId`, `CEOName`, `greetingDetail`, `photoLink`, `generation`) VALUES
-(1, 'Adhy Wiranata Prasetyo', '<b>Bina Nusantara Computer Club</b> is a computer-based organization in Binus University and we are a family of excellent youth who works passionately and professionally.</p>\r\n				<p>Established on 1989, BNCC has now reached its 25th year. It has been a long milestone for us to create a strong foundation and belief to learn and forge ourselves with computer, technology business, and organizational skills.</p>\r\n				<p><b>BNCC</b> educate others in computer and organizational knowledge, having technology products such as software house and online magazine, doing technology research, and creating technology communities inside and outside the university.</p>\r\n				<p>Be successful by joining us. Be a part of our family and relation and become one of the future generation, a generation which will always give innovations on the technology era.', '', 26);
 
 -- --------------------------------------------------------
 
@@ -123,31 +79,6 @@ INSERT INTO `msjabatan` (`jabatan_id`, `jabatan_name`) VALUES
 (5, 'Chief Tehnology Officer '),
 (6, 'Manager'),
 (7, 'Staff');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `msmission`
---
-
-CREATE TABLE IF NOT EXISTS `msmission` (
-  `missionId` int(11) NOT NULL AUTO_INCREMENT,
-  `missionDetail` text NOT NULL,
-  `generation` int(11) NOT NULL,
-  PRIMARY KEY (`missionId`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
-
---
--- Dumping data for table `msmission`
---
-
-INSERT INTO `msmission` (`missionId`, `missionDetail`, `generation`) VALUES
-(1, 'Creating an organization strongly embraced by culture', 26),
-(2, 'Providing relevant computer education to Binus students', 26),
-(3, 'Building passionate communities of technology trends', 26),
-(4, 'Developing reliable rechnology products and services', 26),
-(5, 'Empower the organization''s relation to tthe professional world', 26),
-(6, 'Giving social contribution to the people of Indonesia', 26);
 
 -- --------------------------------------------------------
 
@@ -261,26 +192,6 @@ INSERT INTO `msstructure_26` (`id`, `name`, `nim`, `jurusan`, `jabatan_id`, `div
 (50, 'Reza Aditya', '1701298586', 'IFMAT', 7, 5, 'RnD (Research and Development)'),
 (51, 'Ribka Apriliana Kuotakusuma', '1701314690', 'IF', 7, 5, 'RnD (Research and Development)'),
 (52, 'Touraedo Unaito', '1601233906', 'IF', 7, 5, 'RnD (Research and Development)');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `msvision`
---
-
-CREATE TABLE IF NOT EXISTS `msvision` (
-  `visionId` int(11) NOT NULL AUTO_INCREMENT,
-  `visionDetail` text NOT NULL,
-  `generation` int(11) NOT NULL,
-  PRIMARY KEY (`visionId`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
-
---
--- Dumping data for table `msvision`
---
-
-INSERT INTO `msvision` (`visionId`, `visionDetail`, `generation`) VALUES
-(1, 'An <span class="strong">organization</span> of excellent youth in continous development of technology innovation, products, and services for the people', 26);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
