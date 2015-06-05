@@ -42,11 +42,16 @@ h5{
 	margin: 30px 20px;
 }
 .navbar>a{
-	margin: 20px;
+	margin: 10px;
 	padding:20px;
 	vertical-align: middle;
 }
 .navbar a:hover{
+	background-color: #00b0da;
+	color: #f3eeee;
+}
+
+.active{
 	background-color: #00b0da;
 	color: #f3eeee;
 }
@@ -83,13 +88,12 @@ h5{
 	color: #00b0da;
 	font-weight: bold;
 }
-.button{
+
+#home .button{
 	border-radius: 100px;
 	padding: 0.8em 1.3em;
 	font-size: 0.8em;
 }
-
-
 
 /*=======DIVIDER=======*/
 .divider{
@@ -100,7 +104,6 @@ h5{
 	margin-bottom: 50px;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	/*overflow: hidden;*/
 }
 /*.divider:after{
 	content: '';
@@ -114,14 +117,6 @@ h5{
     border-right:200px solid transparent;
 }*/
 
-/* berhubung tulisan kadang ga kliatan gara2 bg :v */
-.textbox {
--moz-border-radius: 15px; /*for mozilla support*/
--webkit-border-radius: 15px; /*for chrome support*/
-border-radius: 15px;
-background-color : #00b0da;
-}
-/* end of note :v */
 #greetings{
 	background-image: url("../img/greetingsbg.png");
 	background-repeat: repeat;
@@ -256,68 +251,99 @@ hop{
 	margin-top: 3em;
 }
 
+#family .button{
+	border-radius: 100px;
+	padding: 0.8em 1.3em;
+	font-size: 0.8em;
+}
+
 /*=======STRUCTURE=======*/
-#structure columns{
-	padding:80px;
+
+#structure table{
+	margin: 0;
+	padding: 0;
+	background-color: #f3eeee;
+	width: 100%;
+	border: 0;
 }
 
-#structure .columns{
-	height: 400px;
+#structure td{
+	width: 25%;
 }
 
-#structure .button{
-	border-radius: 0;
-	padding: 20px;
-	display: table-cell;
-	vertical-align: middle;
+#structure h2{
+	color:#00b0da;
+	margin-bottom:20px;
+}
+
+#structure .struc{
 	transition: 0.3s;
-	height: 90px;
+	display: inline-block;
 }
-#structure .button:hover{
-	border-radius: 0;
-	padding: 20px;
-	display: table-cell;
-	vertical-align: middle;
+
+#structure .struc2{
+	transition: 0.3s;
+	display: inline-block;
+}
+#structure .struc:hover{
 	transform: translateY(5px);
 	transition: 0.5s;
 }
 
+#structure .struc2:hover{
+	transform: translateY(-5px);
+	transition: 0.5s;
+}
 
-#dpi{
-	background-color: #00b0da;
-	box-shadow: 0px 5px 0px 0px #0a99bb;
-}#dpi:hover{
-	box-shadow: 0px 0px 0px 0px #0a99bb;
+.staff .image{
+	overflow: hidden;
 }
-#marketing{
-	background-color: #2ecc71;
-	box-shadow: 0px 5px 0px 0px #27ae60;
+.staff .image img{
+	object-position: center;
+	object-fit:contain !important;
 }
-#marketing:hover{
-	box-shadow: 0px 0px 0px 0px #27ae60;
+
+.staff .name{
+	font-size: 1em;
+	font-weight: bold;
+	color: #10b1dd;
 }
-#product{
-	background-color: #e74c3c;
-	box-shadow: 0px 5px 0px 0px #c0392b;
+.staff .jabatan,.staff .nim{
+	font-size: 1em;
+	font-weight: bold;
+	color: black;
+	display: block;
 }
-#product:hover{
-	box-shadow: 0px 0px 0px 0px #c0392b;
+
+/*=======HISTORY=======*/
+
+.item-block{
+	border-left: 5px solid #00b0da;
 }
-#resource{
-	box-shadow: 0px 5px 0px 0px #f39c12;
-	background-color: #f1c40f;
+.item h2{
+	color : #00b0da;
 }
-#resource:hover{
-	box-shadow: 0px 0px 0px 0px #f39c12;
+
+.ui-slider-handle{
+	border-radius: 100px !important;
+	height:2em !important;
+	width:2em !important;
+	transform: translateY(-0.5em);
+	background-color: #00b0da !important;
 }
-#technology{
-	background-color: #34495e;
-	box-shadow: 0px 5px 0px 0px #2c3e50;
+
+#history h2{
+	color:#00b0da;
+	margin-bottom:20px;
 }
-#technology:hover{
-	box-shadow: 0px 0px 0px 0px #2c3e50;
-}
+
 /*=======ORGANIZATION=======*/
+
+#organization{
+	position:relative;
+	clear:both;
+	float:center;
+}
 
 #organization h2{
 	font-size: 1em;
@@ -355,26 +381,72 @@ hop{
 	color: #f3eeee;
 }
 
+/*=======ALUMNUS=======*/
 
-/*=======ACTIVITIES=======*/
+
+#alumnus h2{
+	font-size: 1em;
+	color: #f3eeee;
+	margin-bottom: 0;
+	transform: translateY(3.5em);
+}
+#alumnus h1{
+	margin-top: 0;
+	transform: translateY(0.4em);
+	font-size: 5em;
+	margin-bottom: 0;
+	color: #f3eeee;
+}
+
+#alumnus p{
+	margin-top: 3em;
+	margin-bottom: 5em;
+}
+
+
+/*=======PRODUCTS=======*/
+
+#products{
+	background-color: #e5e6e6;
+}
 
 #products>.row{
+	
 }
 #products .row-label{
-	background-color: #e5e6e6;
-	margin-top: 5em;
-	margin-bottom: 2em;/*
-	padding-top: 1em;
-	padding-bottom: 1em;*/
+	
 }
 #products .large-12>.row{
-	padding: 1em 3em;
+
 }
 #products h2{
 	color: #00b0da;
 	font-size: 1.4em;
 }
 #products p{
+
+}
+
+/*=======ACTIVITIES=======*/
+
+#activities{
+	background-color: #e5e6e6;
+}
+
+#activities>.row{
+	
+}
+#activities .row-label{
+	
+}
+#activities .large-12>.row{
+
+}
+#activities h2{
+	color: #00b0da;
+	font-size: 1.4em;
+}
+#activities p{
 
 }
 
@@ -400,65 +472,11 @@ hop{
 	color: #f3eeee;
 }
 
-
-
-
-/*========Buat Modal Window========*/
-
-.modalDialog {
-	position: fixed;
-	font-family: Arial, Helvetica, sans-serif;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgba(0,0,0,0.8);
-	z-index: 99999;
-	opacity:0;
-	-webkit-transition: opacity 400ms ease-in;
-	-moz-transition: opacity 400ms ease-in;
-	transition: opacity 400ms ease-in;
-	pointer-events: none;
-}
-
-.modalDialog:target {
-	opacity:1;
-	pointer-events: auto;
-}
-
-.modalDialog > div {
-	width: 80%;
-	height: 80%;
-	position: relative;
-	margin: 5% auto;
-	padding: 5px 20px 13px 20px;
-	border-radius: 10px;
-	background: #fff;
-	background: -moz-linear-gradient(#fff, #999);
-	background: -webkit-linear-gradient(#fff, #999);
-	background: -o-linear-gradient(#fff, #999);
-}
-
-.close {
-	background: #606061;
-	color: #FFFFFF;
-	line-height: 25px;
-	position: absolute;
-	right: -12px;
-	text-align: center;
-	top: -10px;
-	width: 24px;
+#contact a{
 	text-decoration: none;
-	font-weight: bold;
-	-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;
-	border-radius: 12px;
-	-moz-box-shadow: 1px 1px 3px #000;
-	-webkit-box-shadow: 1px 1px 3px #000;
-	box-shadow: 1px 1px 3px #000;
+	color: #f3eeee;
 }
 
-.close:hover { background: #00d9ff; }
 
 /* buat bagian structure */
 
@@ -486,5 +504,83 @@ hop{
 .link:hover{
 	color: #0078A0;
 	cursor: pointer;
+}
+
+#orgstaff{
+	position:relative !important;
+}
+
+#orgstaff .divisi h2{
+	color: #f3eeee;
+	margin-bottom: 0;
+	font-size:2em;
+	text-align:center;
+}
+
+#orgstaff .staff{
+	height:150px;
+}
+
+#orgstaff .divisi h4{
+	color: #f3eeee;
+	margin-bottom: 0;
+	font-size:1.8em;
+	text-align:left;
+	padding-left:50px;
+}
+
+#orgstaff .divisi-header-bod{
+	width:100%;
+	height:50px;
+	background-color:#00B0DA; 
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px; 
+	border-radius: 15px;
+	transform: translateY(-2em);
+	margin-top: 25px;
+}
+
+#orgstaff .divisi-header-marketing{
+	width:100%;
+	height:50px;
+	background-color:#2ECC71; 
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px; 
+	border-radius: 15px;
+	transform: translateY(-2em);
+	margin-top: 25px;
+}
+
+#orgstaff .divisi-header-product{
+	width:100%;
+	height:50px;
+	background-color:#E74C3C; 
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px; 
+	border-radius: 15px;
+	transform: translateY(-2em);
+	margin-top: 25px;
+}
+
+#orgstaff .divisi-header-resource{
+	width:100%;
+	height:50px;
+	background-color:#F1C40F; 
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px; 
+	border-radius: 15px;
+	transform: translateY(-2em);
+	margin-top: 25px;
+}
+
+#orgstaff .divisi-header-technology{
+	width:100%;
+	height:50px;
+	background-color:#34495E; 
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px; 
+	border-radius: 15px;
+	transform: translateY(-2em);
+	margin-top: 25px;
 }
 
